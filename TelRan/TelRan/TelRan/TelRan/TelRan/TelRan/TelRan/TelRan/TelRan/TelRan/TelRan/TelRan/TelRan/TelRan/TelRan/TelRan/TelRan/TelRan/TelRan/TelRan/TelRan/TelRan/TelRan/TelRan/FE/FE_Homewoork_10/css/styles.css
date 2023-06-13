@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 1%;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    justify-content: space-between;
+    
+    background-color: rosybrown;
+    border: 1px solid black;
+    width: 100 px;
+    height: 25 px;
+    margin: 5px;
+}
+
+ button {
+ 
+    background-color: rosybrown;
+    background-color: peachpuff;
+    border: 1px solid black;
+    width: 100 px;
+    height: 40 px;
+    margin: 10px;
+} 
+
+.placeholder {
+    font-size: 10px ;
+    font: green;
+   
+}
+.users-container
+{
+     width: 200 px;
+    height: 500px; 
+    background-color: rgb(176, 224, 230);
+    border: 1px solid black;
+}
+.card {
+    width: 60 px;
+    height: 75px;
+    cursor: pointer;
+}
+p
+{
+    flex-direction: row;
+    width: 50 px;
+    height: 20px;
+    background-color: rgb(175, 73, 73);
+    margin: 1px 1px 1px 1px;
+    border-block: 1% solid black;
+}

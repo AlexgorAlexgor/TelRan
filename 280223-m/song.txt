@@ -1,0 +1,18 @@
+ut
+zfctzzctuvizvzivzbobuob
+uvzivzibibu
+vuvzuvziviz
+
+
+gtutk
+cjcrcrk
+txx
+git push --force  НЕ ИСПОЛЬЗОВАТЬ!
+git revert HEAD
+git revert HEADgig rest --hard -удалит безвозвратно коми. ОПАСНО!
+git reset HEAD^
+git reset HEAD~1
+git commit --amend -m
+git restore --staged
+git clean -xdf
+git clean -xdn

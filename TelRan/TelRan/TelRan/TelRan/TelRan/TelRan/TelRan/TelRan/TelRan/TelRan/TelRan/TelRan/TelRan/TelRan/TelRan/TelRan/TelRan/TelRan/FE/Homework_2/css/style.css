@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 42px;
+}
+
+ul {
+    padding-left: 70px;
+    font-size: 30px;
+    font-style: normal
+}
+
+h2 {
+    padding-left: 10px;
+    padding-top: 25px;
+    font-size: 42px;
+}
+
+table {
+    border-collapse: border;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+
+td {
+    padding: 2px 2px;
+    text-align: left;
+}
+.flag {
+    text-align: right;
+}

@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 5%;
+    font-size: small;
+
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: right ;
+    transition: all 3s 0.5s;
+}
+
+.red {
+    background: red;
+    z-index: 5;
+}
+
+.blue {
+    background: blue;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    z-index: 10;
+}
+
+.green {
+    background: green;
+    position: relative;
+    left: 50px;
+    top:  -350px;
+    z-index: 130;
+
+}
+
+.green:hover {
+    height: 300px;
+    width: 300px;
+    transform: rotate(45deg);
+}

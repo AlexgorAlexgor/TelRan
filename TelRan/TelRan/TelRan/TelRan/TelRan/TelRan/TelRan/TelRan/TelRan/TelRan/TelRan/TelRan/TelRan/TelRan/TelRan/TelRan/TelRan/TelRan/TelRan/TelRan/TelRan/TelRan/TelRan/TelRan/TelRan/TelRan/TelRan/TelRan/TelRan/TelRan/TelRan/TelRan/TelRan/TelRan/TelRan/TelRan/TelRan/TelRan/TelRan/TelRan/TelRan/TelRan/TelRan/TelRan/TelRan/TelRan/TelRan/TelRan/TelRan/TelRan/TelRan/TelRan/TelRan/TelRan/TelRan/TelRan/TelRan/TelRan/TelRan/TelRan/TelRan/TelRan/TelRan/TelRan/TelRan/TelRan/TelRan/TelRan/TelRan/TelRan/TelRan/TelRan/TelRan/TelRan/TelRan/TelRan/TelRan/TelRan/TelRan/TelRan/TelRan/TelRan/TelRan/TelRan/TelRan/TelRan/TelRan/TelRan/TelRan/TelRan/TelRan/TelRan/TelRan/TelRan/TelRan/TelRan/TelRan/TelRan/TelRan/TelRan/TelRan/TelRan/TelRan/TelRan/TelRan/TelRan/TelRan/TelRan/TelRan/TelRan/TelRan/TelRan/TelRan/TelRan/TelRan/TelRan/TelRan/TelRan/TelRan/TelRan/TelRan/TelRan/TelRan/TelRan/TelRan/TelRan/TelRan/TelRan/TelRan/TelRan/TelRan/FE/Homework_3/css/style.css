@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+form {
+    /*  display: flex;flex-direction: column;justify-content: left; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 32px;
+    width: 420px;
+    height: 426px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08), 0px 20px 32px rgba(96, 97, 112, 0.24);
+    border-radius: 20px;
+}
+
+h1 {
+    /* Регистрация  Header : H1/ExtraBold */
+    display: flex;
+    width: 356px;
+    height: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+input {
+    /* Forms / Input / Text (Focus). Color FFE44D */
+    display: flex;
+    padding: 14px;
+    margin-bottom: 8px;
+    width: 356px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7B8E98;
+    transition: ease-in-out 5s;
+    outline-color: #FFE44D;
+}
+
+h2 {
+    /* Можно отправить повт... S1/Regular or 117% Text/Secondary Text */
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    width: 356px;
+    height: 42px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7B8E98;
+}
+
+button {
+    /*display:flex;flex-direction: row;justify-content:center; align-items:center;*/
+    width: 356px;
+    height: 48px;
+    border-radius: 55px;
+    border: transparent;
+    padding: 14px 24px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 5px;
+}
+
+#Register {
+    background: #FFE44D;
+}
+
+#Enter {
+    background: #FFFFFF;
+    border: gray solid 1px;
+}
+
+#close {
+    /* position: relative;left: 364px;top: 5px(21) */
+    left: 352px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    padding: 1px 1px;
+    position: relative;
+}
+
+img {
+    /* Icons / close */
+    height: 22px;
+    width: 22px;
+}
